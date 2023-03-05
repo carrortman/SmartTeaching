@@ -1,0 +1,50 @@
+{
+    "ID":"1",
+    "ExamQuestion":"下列关于匀变速直线运动的说法正确的是(　　)",
+    "AnswerA":"匀加速直线运动的速度一定与时间成正比",
+    "AnswerB":"匀减速直线运动就是加速度为负值的运动",
+    "AnswerC":"匀变速直线运动的速度随时间均匀变化",
+    "AnswerD":"速度先减小再增大的运动一定不是匀变速直线运动",
+    "RightAnswer":"A",
+    "KnowledgeCardId":"1"
+}
+{
+    "ID":2,
+    "ExamQuestion":"一物体由静止开始做匀变速直线运动，在时间t内通过的位移为s，则它从出发开始经过s4的位移所用的时间为(　　)",
+    "AnswerA":"t/4",
+    "AnswerB":"t/2",
+    "AnswerC":"t/16",
+    "AnswerD":"√2/2",
+    "RightAnswer":"A",
+    "KnowledgeCardId":"1"
+}
+{
+    "ID":3,
+    "ExamQuestion":"",
+    "AnswerA":"匀加速直线运动的速度一定与时间成正比",
+    "AnswerB":"匀减速直线运动就是加速度为负值的运动",
+    "AnswerC":"匀变速直线运动的速度随时间均匀变化",
+    "AnswerD":"速度先减小再增大的运动一定不是匀变速直线运动",
+    "RightAnswer":"A",
+    "KnowledgeCardId":"1"
+}
+{
+    "ID":"1",
+    "ExamQuestion":"",
+    "AnswerA":"匀加速直线运动的速度一定与时间成正比",
+    "AnswerB":"匀减速直线运动就是加速度为负值的运动",
+    "AnswerC":"匀变速直线运动的速度随时间均匀变化",
+    "AnswerD":"速度先减小再增大的运动一定不是匀变速直线运动",
+    "RightAnswer":"A",
+    "KnowledgeCardId":"1"
+}
+{
+    "ID":"1",
+    "ExamQuestion":"",
+    "AnswerA":"匀加速直线运动的速度一定与时间成正比",
+    "AnswerB":"匀减速直线运动就是加速度为负值的运动",
+    "AnswerC":"匀变速直线运动的速度随时间均匀变化",
+    "AnswerD":"速度先减小再增大的运动一定不是匀变速直线运动",
+    "RightAnswer":"A",
+    "KnowledgeCardId":"1"
+}

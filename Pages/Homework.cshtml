@@ -1,0 +1,78 @@
+﻿@page
+@model SmartTeaching.Pages.HomeworkModel
+@using SmartTeaching.Models
+@{
+    ViewData["Title"] = "Homework";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/homework.css" asp-append-version="true" />
+</head>
+<div>
+    <div class="knowledge-card-panel">
+        <b>knowledge card</b>
+    </div>
+    <div class="test-panel">
+        <div class="exams-panel">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">序号</th>
+                    <th scope="col">题目</th>
+                    <th scope="col">正确答案</th>
+                </tr>
+            </thead>
+            @foreach (var test in Model.tests)
+            {
+            <td>@test.Id</td>
+            <td>
+                <div>
+                    <ol>
+                        <li>
+                            <span> @test.ExamQuestion</span>
+                            <div><input type="radio" name="selectOne-1" value="A">(A)@test.AnswerA</div>
+                            <div><input type="radio" name="selectOne-1" value="B">(B)@test.AnswerB</div>
+                            <div><input type="radio" name="selectOne-1" value="C">(C)@test.AnswerC</div>
+                            <div><input type="radio" name="selectOne-1" value="D">(D)@test.AnswerD</div>
+                        </li>
+                    </ol>
+                </div>
+            </td>
+            <td class="test-right-answer">
+                @test.RightAnswer
+            </td>
+            }
+
+        </table>
+        </div>
+        <div class="btns-panel">
+            <button class="btn btn-primary btn-lg">提交</button>
+            <button class="btn btn-primary btn-lg">重新开始</button>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+
+
+@* <div>
+<h4>二、选择题（每题10分，共20分）</h4>
+<ol>
+<li>
+<span> UML与软件工程的关系是：</span>
+<div><input type="radio" name="selectOne-1" value="A">(A)UML就是软件工程</div>
+<div><input type="radio" name="selectOne-1" value="B">(B)UML参与到软件工程中软件开发过程的几个阶段</div>
+<div><input type="radio" name="selectOne-1" value="C">(C)UML与软将工程无关</div>
+<div><input type="radio" name="selectOne-1" value="D">(D)UML是软件工程的一部分</div>
+</li>
+<li>
+<span>Java语言支持：</span>
+<div><input type="radio" name="selectOne-2" value="A">(A)物体在A点的速度大小为 </div>
+<div><input type="radio" name="selectOne-2" value="B">(B)多继承</div>
+<div><input type="radio" name="selectOne-2" value="C">(C)单继承和多继承都支持</div>
+<div><input type="radio" name="selectOne-2" value="D">(D)单继承和多继承都不支持</div>
+</li>
+</ol>
+</div> *@
+
